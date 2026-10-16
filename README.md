@@ -1,0 +1,2 @@
+# uninavid_mini
+在开源方案uninavid的基础上，针对tracking任务进行了蒸馏微调以及端侧推理优化。最终整个VLN模型在端侧Orin Nx小车上能够实现20Hz的实时动作输出频率
