@@ -1,4 +1,4 @@
-# uninavid_mini
+# Edge-UniNaVid
 # Edge-UniNaVid: 面向 Orin NX 的 20Hz 实时视觉语言跟拍与导航端侧部署方案
 
 本项目基于开源视觉语言导航模型 **Uni-NaVid**（EVA-CLIP + Vicuna-7B），针对真实场景下的目标跟踪（Tracking）任务进行了**知识蒸馏轻量化**与 **TensorRT-LLM 端侧极致推理优化**。最终将 14GB 的原始模型压缩至 **1.4GB**，在算力受限的 **NVIDIA Jetson Orin NX（100 TOPS / 16GB）** 平台上实现了 **20Hz** 的实时动作输出频率，超越了车载级计算平台 Thor（2070 TOPS）上的原 8Hz 表现。
